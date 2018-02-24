@@ -20,8 +20,6 @@ class WindowMenu(object):
         #self.frame becomes part a child of root
         self.frame = Frame(parent)
         self.frame.pack()
-        # Calls a function to display all content
-        #WindowMenu.widgets(self)
         # Displays a welcome message
         label_welcome = Label(self.frame, text = "Welcome to Latin²")
         label_welcome.pack(pady=10, padx=15)
